@@ -5,5 +5,5 @@ Trained models have been uploaded using git LFS and are available as '.pth' file
 
 The inference.ipynb notebook in the Inference folder imports the model weights for the multimodal model trained for the second approach to multimodal modeling (see project report) and generates predictions for the sample with index 100 in the test set. The environment requirements to run this file are specified in the environment.yml file. The current working directory needs to be adapted to match the repositories' top-level folder.
 
-The files included in the folder Models should be downloaded and then run in Google Colab, where the base_path variable/the current working directory needs to be adapted to match the repositories' top-level folder.
+The files included in the folder Models should be downloaded and then run in Google Colab, where the base_path variable/the current working directory needs to be adapted to match the repositories' top-level folder. It is important to download the repository as a whole or recreate the same structure of folders as plots generated during training will be placed in corresponding subfolders.
 
